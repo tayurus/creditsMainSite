@@ -80,12 +80,14 @@
 .header__submenu{
     display: none;
     position: absolute;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .header__submenu > .header__item{
     display: block;
     text-align: center;
+    color: #000;
+    padding: 5px 20px;
 }
 
 .header__lang {

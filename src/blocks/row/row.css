@@ -3,3 +3,30 @@
     justify-content: space-between;
     align-items: center;
 }
+
+.row-marginBottom-40{
+    margin-bottom: 40px;
+}
+
+.row-wrap{
+    flex-wrap: wrap;
+}
+
+@media (max-width:1245px),(max-device-width:1245px) {
+    .row-spaceAround-1245{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:945px),(max-device-width:945px) {
+    .row-adaptive-945{
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width:885px),(max-device-width:885px) {
+    .row-adaptive-885{
+        flex-direction: column;
+    }
+}

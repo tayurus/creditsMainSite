@@ -3,7 +3,6 @@
     max-width: 441px;
     color: #ffffff;
     font-family: "Montserrat - Regular";
-    background-color: #000;
 }
 
 .status__text {
@@ -33,4 +32,17 @@
     display: block;
     color: #fff;
     text-align: center;
+}
+
+.status-margin-auto{
+    margin: auto;
+}
+
+@media (max-width:520px), (max-device-width:520px) {
+    .status__caps{
+        margin: auto;
+        width: 90%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
 }

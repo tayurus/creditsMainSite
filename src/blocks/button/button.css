@@ -23,3 +23,22 @@
     background-color: #000;
     color: #fff;
 }
+
+.button-maxWidth-300{
+    max-width: 300px;
+}
+
+.button-block{
+    display: block;
+}
+.button-margin-auto{
+    margin: auto;
+}
+
+.button-width-235{
+    width: 235px;
+}
+
+.button-marginBottom-20{
+    margin-bottom: 20px;
+}

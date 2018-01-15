@@ -52,7 +52,7 @@
 @media (max-width:650px), (max-device-width:650px) {
     .footer__row{
         flex-direction: column;
-        align-items: baseline;
+        align-items: baseline !important;
         width: 208px;
     }
 }

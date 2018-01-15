@@ -5,14 +5,28 @@
     margin: auto;
 }
 
+.title-marginBottom-30{
+    margin-bottom: 30px;
+}
+
 .title__text{
     line-height: 24px;
     font-size: 30px;
+    padding: 0px 10px;
     font-variant: small-caps;
+}
+
+.title__text-color-white{
+    color: #fff;
+}
+
+.title__text-marginBottom-20{
+    margin-bottom: 20px;
 }
 
 .title__subtext{
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 0px 10px;
 }

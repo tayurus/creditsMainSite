@@ -1,5 +1,5 @@
 .compareTable {
-    max-width: 828px;
+    max-width: 720px;
     margin: auto;
 }
 
@@ -34,4 +34,10 @@
     font-weight: bold;
     font-size: 20px;
     padding: 20px 0px;
+}
+
+@media (max-width:740px),(max-device-width:740px) {
+    .compareTable__table td, .compareTable__table th{
+        font-size: 14px !important;
+    }
 }

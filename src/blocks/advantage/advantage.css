@@ -1,6 +1,7 @@
 .advantage {
     width: 302px;
     padding: 16px 45px 25px 45px;
+    align-self:stretch;
 }
 
 .advatange-background-gray{
@@ -33,4 +34,11 @@
 .advantage__button {
     display: block;
     margin: auto;
+}
+
+@media (max-width:945px),(max-device-width:945px) {
+    .advantage{
+        align-self:auto;
+        margin-bottom: 10px;
+    }
 }
