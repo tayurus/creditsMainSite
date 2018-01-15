@@ -1,0 +1,26 @@
+.audit {
+    display: flex;
+    max-width: 484px;
+}
+
+.audit__left {
+    margin-right: 15px;
+}
+
+.audit__title {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat - Regular";
+    margin: 10px 0px 0px 0px;
+}
+
+.audit__link {
+    font-family: "Montserrat - Regular";
+    color: #000;
+}
+
+.audit__text {
+    font-family: "Montserrat - Regular";
+    font-weight: 500;
+    margin-bottom: 15px;
+}

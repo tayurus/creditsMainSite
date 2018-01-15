@@ -1,0 +1,8 @@
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container__link{
+    color: #fff;
+}

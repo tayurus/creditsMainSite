@@ -1,0 +1,25 @@
+
+.button{
+    color: #000000;
+    font-family: 'Montserrat-Regular';
+    font-size: 16px;
+    padding: 10px 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+}
+
+.button-borderRadius-30{
+    border-radius: 30px;
+}
+
+.button-border-none{
+    border: none;
+}
+
+.button-background-black{
+    background-color: #000;
+    color: #fff;
+}

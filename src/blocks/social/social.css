@@ -1,0 +1,16 @@
+
+.social__link{
+    color: #000;
+}
+
+.social__row{
+    max-width: 563px;
+    justify-content: space-around;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.social__wrapper{
+    padding: 0px 10px;
+    width: 260px;
+}

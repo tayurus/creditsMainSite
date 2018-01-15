@@ -1,0 +1,37 @@
+.compareTable {
+    max-width: 828px;
+    margin: auto;
+}
+
+.compareTable__table{
+    width: 100%;
+}
+
+.compareTable__table td:nth-of-type(1){
+    font-family: "Montserrat - Regular";
+}
+
+.compareTable__table td:not(:nth-of-type(1)){
+    text-align: center;
+    font-family: "Montserrat - Semi Bold";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.compareTable__table tr:not(.compareTable__title) td, .compareTable__table tr:not(.compareTable__title) th{
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
+}
+
+.compareTable__table th{
+    font-family: "Montserrat - Semi Bold";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.compareTable__title td{
+    font-family: "Montserrat - Regular";
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 0px;
+}
