@@ -18,6 +18,10 @@
     font-weight: bold;
 }
 
+.footer__link{
+    color: #fff;
+}
+
 .footer_line {
     width: 60px;
     height: 3px;

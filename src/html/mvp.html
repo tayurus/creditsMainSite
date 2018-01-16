@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Webpage</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="img/header__logo.png" alt="">
+                    <h1 class="header__title">credits</h1>
+                </div>
+                <div class="header__menuIcon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <nav class="header__menu">
+                    <a class="header__item" href="#">о нас</a>
+                    <a class="header__item" href="#">новости</a>
+                    <a class="header__item" href="#">ico</a>
+                    <div class="header__item-wrapper">
+                        <a class="header__item header__item-hasSubmenu" href="#">
+                            документы
+                            <div class="header__submenu">
+                        <a class="header__item" href="#">Презентация</a>
+                        <a class="header__item" href="#">Презентация короткая</a>
+                        <a class="header__item" href="#">Видео</a>
+                        </div>
+                        </a>
+                    </div>
+                    <a class="header__item" href="#">mvp</a>
+                    <a class="header__item" href="#">команда</a>
+                    <a class="header__item" href="#">f.a.q</a>
+                    <a class="header__item" href="#">профиль</a>
+                    <a class="header__item" href="#">
+                    <img src="img/header__enter.png" alt="Войти">
+                    </a>
+                    <select class="header__lang" name="language">
+                        <option value="rus">РУС</option>
+                        <option value="eng">ENG</option>
+                    </select>
+                </nav>
+            </div>
+        </header>
+
+        <div class="container container-verticalPadding-50">
+            <div class="title">
+                <h2 class="title__text">Минимально жизнеспособный продукт</h2>
+                <h3 class="title__subtext">
+                    На данный момент разработана платформа с минимальными функциональными возможностями. Можно протестировать рабочую платформу,
+                    нажав на кнопку TEST MVP, расположенную ниже
+                </h3>
+            </div>
+
+            <iframe style="margin:auto; display:block; width: 80%; height: 300px;" src="https://www.youtube.com/embed/LWg_Ya_0J68?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+            <div class="row row-spaceAround row-wrap row-alignItems-top">
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Децентрализованная сеть</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Каждый узел (нода) является одновременно и клиентом, и выполняет функции сервера
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Узлы</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Сетевой узел, который хранит данные ID в системе — это публичный и приватный ключи
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Переводы</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Возможность совершать денежные переводы между участниками сети
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Консенсус</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Реализация алгоритма для выбора узла, ответственного за хранение данных в блокчейне
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Сохранение транзакций</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Данные хранятся в блокчейне
+                    </div>
+                </div>
+                <div class="advantage">
+                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Кошелек</div>
+                    <div class="advatnage__text advatnage__text-color-gray">
+                        Функциональный кошелек внутри системы с минимальным набором функций на стороннем сервисе
+                    </div>
+                </div>
+            </div>
+
+            <button class="button button-block button-margin-auto button-marginBottom-20">TEST MVP</button>
+            <button class="button button-block button-margin-auto button-marginTop-40 button-marginBottom-20 button-background-black button-borderRadius-30">участовать в ICO</button>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer__row">
+                    <div class="footer__col">
+                        <h4 class="footer__title">About Credits</h4>
+                        <div class="footer_line"></div>
+                        <div class="footer__text">
+                            CREDITS.COM PTE. LTD.<br/> Reg. No.: 201725929C<br/> Check
+                            <br/> 79 Ayer Rajah Crescent<br/> #05-08 Singapore 139955<br/>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Правила</h4>
+                        <div class="footer_line"></div>
+                        <div class="footer__text">
+                            <a href="#" class="footer__link">Условия пользования сайтом<a><br/> <a href="#" class="footer__link">Условия ICO</a><br/> <a href="#" class="footer__link">Политика <br/> конфиденциальности</a>
+                            <br/>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Contacts</h4>
+                        <div class="footer_line"></div>
+                        <div class="footer__text">
+                            Advertising & PR: pr@credits.com<br/> Press & news: press@credits.com<br/> General issues: info@credits.com<br/> Tel: +65 8114 9362<br/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row social__row">
+                    <div class="row social__wrapper">
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row social__wrapper">
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img" src="img/social-btc.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                Copyright © 2017 CREDITS.COM All Rights Reserved.
+            </div>
+        </footer>
+
+    </body>
+</html>
