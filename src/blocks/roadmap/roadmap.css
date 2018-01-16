@@ -1,0 +1,55 @@
+.roadmap {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, #fff 0%, #fff 50%, #575757 43%, #fff 52%, #fff 100%  );
+    margin: auto;
+}
+
+.roadmap__item {
+    max-width: 152px;
+}
+
+.roadmap__date, .roadmap__status {
+    font-size: 18px;
+    color: #3f3f3f;
+    font-family: "Montserrat - Regular";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.roadmap__status {
+    font-size: 24px;
+}
+
+.roadmap__point {
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: #575757;
+    border: 3px solid #909090;
+}
+
+.roadmap__list {
+    color: #3f3f3f;
+    font-family: "Montserrat - Regular";
+    font-size: 16px;
+}
+
+.roadmap__achievement {
+
+}
+
+@media (max-width:1200px), (max-device-width:1200px) {
+    .roadmap{
+        width: 150px;
+        flex-direction: column;
+        justify-content: space-around;
+        background: none;
+        align-items: flex-start;
+    }
+
+    .roadmap__item {
+        margin-bottom: 20px;
+    }
+}

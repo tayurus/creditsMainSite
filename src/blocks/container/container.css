@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+.container-margin-none{
+    margin: 0px;
+}
+
 .container__link{
     display: block;
     color: #fff;
@@ -35,5 +39,17 @@
 
 .container-background-1{
     background: url("img/background1.png") no-repeat center;
+    background-size: cover;
+}
+.container-background-2{
+    background: url("img/background2.png") no-repeat center;
+    background-size: cover;
+}
+.container-background-3{
+    background: url("img/background3.png") no-repeat center;
+    background-size: cover;
+}
+.container-background-4{
+    background: url("img/background4.png") no-repeat center;
     background-size: cover;
 }

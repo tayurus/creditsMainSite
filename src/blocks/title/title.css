@@ -14,6 +14,7 @@
     font-size: 30px;
     padding: 0px 10px;
     font-variant: small-caps;
+    line-height: 30px;
 }
 
 .title__text-color-white{
@@ -29,4 +30,12 @@
     font-weight: 700;
     text-transform: uppercase;
     padding: 0px 10px;
+}
+
+.title-maxWidth-670{
+    max-width: 670px;
+}
+
+.title-margin-0{
+    margin: 0px;
 }

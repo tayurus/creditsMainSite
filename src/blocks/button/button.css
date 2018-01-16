@@ -15,6 +15,10 @@
     border-radius: 30px;
 }
 
+.button-marginTop-40{
+    margin-top: 40px !important;
+}
+
 .button-border-none{
     border: none;
 }
