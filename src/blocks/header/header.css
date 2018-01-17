@@ -90,6 +90,10 @@
     padding: 5px 20px;
 }
 
+.header__submenu > .header__item:hover{
+    color:tomato;
+}
+
 .header__lang {
     outline: none;
     background-color: #262626;

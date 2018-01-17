@@ -11,38 +11,38 @@
     cursor: pointer;
 }
 
-.button-borderRadius-30{
+.button_borderRadius_30{
     border-radius: 30px;
 }
 
-.button-marginTop-40{
+.button_marginTop_40{
     margin-top: 40px !important;
 }
 
-.button-border-none{
+.button_border_none{
     border: none;
 }
 
-.button-background-black{
+.button_background_black{
     background-color: #000;
     color: #fff;
 }
 
-.button-maxWidth-300{
+.button_maxWidth_300{
     max-width: 300px;
 }
 
-.button-block{
+.button_block{
     display: block;
 }
-.button-margin-auto{
+.button_margin_auto{
     margin: auto;
 }
 
-.button-width-235{
+.button_width_235{
     width: 235px;
 }
 
-.button-marginBottom-20{
+.button_marginBottom_20{
     margin-bottom: 20px;
 }

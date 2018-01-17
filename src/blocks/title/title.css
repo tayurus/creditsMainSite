@@ -5,7 +5,7 @@
     margin: auto;
 }
 
-.title-marginBottom-30{
+.title_marginBottom_30{
     margin-bottom: 30px;
 }
 
@@ -17,11 +17,11 @@
     line-height: 30px;
 }
 
-.title__text-color-white{
+.title__text_color_white{
     color: #fff;
 }
 
-.title__text-marginBottom-20{
+.title__text_marginBottom_20{
     margin-bottom: 20px;
 }
 
@@ -32,10 +32,10 @@
     padding: 0px 10px;
 }
 
-.title-maxWidth-670{
+.title_maxWidth_670{
     max-width: 670px;
 }
 
-.title-margin-0{
+.title_margin_0{
     margin: 0px;
 }

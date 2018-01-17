@@ -5,51 +5,51 @@
     align-items: center;
 }
 
-.row-spaceAround{
+.row_spaceAround{
     justify-content: space-around;
 }
 
-.row-marginBottom-40{
+.row_marginBottom_40{
     margin-bottom: 40px;
 }
 
-.row-margin-auto{
+.row_margin_auto{
     margin: auto;
 }
 
-.row-wrap{
+.row_wrap{
     flex-wrap: wrap;
 }
 
-.row-width-380{
+.row_width_380{
     max-width: 380px;
 }
 
-.row-alignItems-top{
+.row_alignItems_top{
     align-items: start;
 }
 
 @media (max-width:1245px),(max-device-width:1245px) {
-    .row-spaceAround-1245{
+    .row_spaceAround_1245{
         justify-content: space-around;
     }
 }
 
 @media (max-width:945px),(max-device-width:945px) {
-    .row-adaptive-945{
+    .row_adaptive_945{
         flex-direction: column;
     }
 }
 
 
 @media (max-width:885px),(max-device-width:885px) {
-    .row-adaptive-885{
+    .row_adaptive_885{
         flex-direction: column;
     }
 }
 
 @media (max-width:670px),(max-device-width:670px) {
-    .row-justifyContent-center-670{
+    .row_justifyContent_center_670{
         justify-content: center;
     }
 }

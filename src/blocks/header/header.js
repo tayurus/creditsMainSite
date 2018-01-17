@@ -8,8 +8,8 @@ $(document).ready(function() {
         $(".header__menu").slideToggle(500);
     });
 
-    $(".header__item-hasSubmenu").click(function() {
-        $('.header__submenu').slideToggle(500);
+    $(".header__item-hasSubmenu").click(function(event) {
+        $(event.currentTarget).next().slideToggle(500);
     })
 
 })
