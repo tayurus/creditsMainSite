@@ -29,8 +29,23 @@
     height: 77px;
 }
 
+.advantage__imgIco1, .advantage__imgIco2, .advantage__imgIco3{
+    height: 64px;
+    margin-bottom: 15px;
+}
+
+.advantage__imgIco1{
+    background: url("img/advantageIco1.png") no-repeat left center;
+}
+.advantage__imgIco2{
+    background: url("img/advantageIco2.png") no-repeat left center;
+}
+.advantage__imgIco3{
+    background: url("img/advantageIco3.png") no-repeat left center;
+}
+
 .advantage__wrapper{
-    height: 140px;
+    /* height: 140px; */
 }
 
 .advantage__wrapper_marginLeft_10{

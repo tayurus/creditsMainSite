@@ -1,7 +1,34 @@
 
-.social__link{
-    color: #000;
+@media (max-width:690px),(max-device-width:690px) {
+    .social{
+        margin: 15px;
+    }
+
 }
+
+.social > a{
+    color: #ffffff;
+}
+
+
+.social__link{
+    font-family: "Montserrat - Regular";
+    font-size: 12px;
+    text-align: center;
+}
+
+.social > img{
+    width: 49px;
+    height: 49px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+/* .social__img32{
+    width: 32px !important;
+    height: 32px !important;
+} */
 
 .social__row{
     max-width: 563px;

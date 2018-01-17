@@ -1,6 +1,8 @@
 .container{
     max-width: 1200px;
     margin: auto;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 .container_margin_none{
@@ -29,6 +31,15 @@
     max-width: 100%;
 }
 
+.container_maxWidth_480{
+    max-width: 480px;
+}
+
+
+.container_maxWidth_740{
+    max-width: 740px;
+}
+
 .container_paddingVertical_20{
     padding: 20px 0px;
 }
@@ -52,4 +63,23 @@
 .container_background_4{
     background: url("img/background4.png") no-repeat center;
     background-size: cover;
+}
+
+.container_icoBackground{
+    background: url("img/icoBackground.png") no-repeat center;
+    background-size: cover;
+}
+
+@media (max-width:600px),(max-device-width:600px) {
+    .container__icoImg{
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media (max-width:1060px),(max-device-width:1060px) {
+    .container_maxWidth_480{
+        max-width: 90%;
+    }
 }

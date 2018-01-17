@@ -5,6 +5,15 @@
     margin: auto;
 }
 
+.title_textAlign_left{
+    text-align: left;
+    padding: 0px 10px;
+}
+
+.title_marginTop_70{
+    margin-top: 70px;
+}
+
 .title_marginBottom_30{
     margin-bottom: 30px;
 }
@@ -17,7 +26,11 @@
     line-height: 30px;
 }
 
-.title__text_color_white{
+.title__text_fontSize_20{
+    font-size: 20px;
+}
+
+.title__text_color_white, .title__subtext_color_white{
     color: #fff;
 }
 
@@ -31,6 +44,17 @@
     text-transform: uppercase;
     padding: 0px 10px;
 }
+
+.title__subtext_textAlign_left{
+    text-align: left;
+    line-height:20px;
+}
+
+.title__subtext_notBold{
+    font-weight: 400;
+    line-height: 20px;
+}
+
 
 .title_maxWidth_670{
     max-width: 670px;

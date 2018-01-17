@@ -5,12 +5,24 @@
     align-items: center;
 }
 
-.row_spaceAround{
-    justify-content: space-around;
-}
+
 
 .row_marginBottom_40{
     margin-bottom: 40px;
+}
+
+.row_background_black{
+    background-color: #000;
+}
+
+.row_paddingVertical_40{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.row_paddingHorizontal_20{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .row_margin_auto{
@@ -27,6 +39,14 @@
 
 .row_alignItems_top{
     align-items: start;
+}
+
+.row_direction_col{
+    flex-direction: column;
+}
+
+.row_spaceAround{
+    justify-content: space-around;
 }
 
 @media (max-width:1245px),(max-device-width:1245px) {

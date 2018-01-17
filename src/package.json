@@ -11,6 +11,7 @@
   "dependencies": {
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-css-url-adjuster": "^0.2.3",
     "gulp-rename": "^1.2.2"
   }
 }

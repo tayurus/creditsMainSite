@@ -42,15 +42,22 @@
                     <a class="header__item" href="#">
                     <img src="img/header__enter.png" alt="Войти">
                     </a>
-                    <select class="header__lang" name="language">
-                        <option value="rus">РУС</option>
-                        <option value="eng">ENG</option>
-                    </select>
+
+                    <div class="header__item-wrapper">
+                        <a class="header__item header__item-hasSubmenu" href="#">
+                            рус
+                            <div class="header__submenu">
+                                <a class="header__item" href="#">рус</a>
+                                <a class="header__item" href="#">eng</a>
+                            </div>
+                        </a>
+                    </div>
+
                 </nav>
             </div>
         </header>
 
-        <div class="container container-verticalPadding-50">
+        <div class="container container_verticalPadding_50">
             <div class="title">
                 <h2 class="title__text">Минимально жизнеспособный продукт</h2>
                 <h3 class="title__subtext">
@@ -61,47 +68,47 @@
 
             <iframe style="margin:auto; display:block; width: 80%; height: 300px;" src="https://www.youtube.com/embed/LWg_Ya_0J68?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-            <div class="row row-spaceAround row-wrap row-alignItems-top">
+            <div class="row row_spaceAround row_wrap row_alignItems_top">
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Децентрализованная сеть</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Децентрализованная сеть</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Каждый узел (нода) является одновременно и клиентом, и выполняет функции сервера
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Узлы</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Узлы</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Сетевой узел, который хранит данные ID в системе — это публичный и приватный ключи
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Переводы</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Переводы</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Возможность совершать денежные переводы между участниками сети
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Консенсус</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Консенсус</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Реализация алгоритма для выбора узла, ответственного за хранение данных в блокчейне
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Сохранение транзакций</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Сохранение транзакций</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Данные хранятся в блокчейне
                     </div>
                 </div>
                 <div class="advantage">
-                    <div class="advantage__title advantage__title-size-16 advantage__title-textAlign-left">Кошелек</div>
-                    <div class="advatnage__text advatnage__text-color-gray">
+                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Кошелек</div>
+                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
                         Функциональный кошелек внутри системы с минимальным набором функций на стороннем сервисе
                     </div>
                 </div>
             </div>
 
-            <button class="button button-block button-margin-auto button-marginBottom-20">TEST MVP</button>
-            <button class="button button-block button-margin-auto button-marginTop-40 button-marginBottom-20 button-background-black button-borderRadius-30">участовать в ICO</button>
+            <button class="button button_block button_margin_auto button_marginBottom_20">TEST MVP</button>
+            <button class="button button_block button_margin_auto button_marginTop_40 button_marginBottom_20 button_background_black button_borderRadius_30">участовать в ICO</button>
         </div>
 
         <footer class="footer">
@@ -127,7 +134,7 @@
 
                     <div class="footer__col">
                         <h4 class="footer__title">Contacts</h4>
-                        <div class="footer_line"></div>
+                        <div class="footer__line"></div>
                         <div class="footer__text">
                             Advertising & PR: pr@credits.com<br/> Press & news: press@credits.com<br/> General issues: info@credits.com<br/> Tel: +65 8114 9362<br/>
                         </div>
@@ -135,41 +142,40 @@
 
                 </div>
 
-                <div class="row social__row">
-                    <div class="row social__wrapper">
+                <div class="row row_margin_auto row_wrap row_spaceAround_1245 row_paddingVertical_40">
+
                         <div class="social">
                             <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
+                                <img class="social__img social__img32" src="img/telegram.png" alt="">
                             </a>
                         </div>
                         <div class="social">
                             <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
+                                <img class="social__img social__img32" src="img/facebook.png" alt="">
                             </a>
                         </div>
                         <div class="social">
                             <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
+                                <img class="social__img social__img32" src="img/in.png" alt="">
                             </a>
                         </div>
-                    </div>
-                    <div class="row social__wrapper">
+
+
                         <div class="social">
                             <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
-                            </a>
-                        </div>
-                        <div class="social">
-                            <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
+                                <img class="social__img social__img32" src="img/medium.png" alt="">
                             </a>
                         </div>
                         <div class="social">
                             <a href="#" class="social">
-                                <img class="social__img" src="img/social-btc.png" alt="">
+                                <img class="social__img social__img32" src="img/twitter.png" alt="">
                             </a>
                         </div>
-                    </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/bitcoin.png" alt="">
+                            </a>
+                        </div>
                 </div>
             </div>
             <div class="footer__copyright">
