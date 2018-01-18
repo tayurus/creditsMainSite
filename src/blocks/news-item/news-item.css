@@ -16,7 +16,7 @@
 .new-item__img{
     width: 280px;
     height: 155px;
-    background: url("img/newsTemplate.png") no-repeat center;
+    background: url("img/newsTemplate.jpg") no-repeat center;
     background-size: cover;
     margin-bottom: 10px;
 }

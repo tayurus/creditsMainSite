@@ -49,29 +49,29 @@
 }
 
 .container_background_1{
-    background: url("img/background1.png") no-repeat center;
+    background: url("img/background1.jpg") no-repeat center;
     background-size: cover;
 }
 .container_background_2{
-    background: url("img/background2.png") no-repeat center;
+    background: url("img/background2.jpg") no-repeat center;
     background-size: cover;
 }
 .container_background_3{
-    background: url("img/background3.png") no-repeat center;
+    background: url("img/background3.jpg") no-repeat center;
     background-size: cover;
 }
 .container_background_4{
-    background: url("img/background4.png") no-repeat center;
+    background: url("img/background4.jpg") no-repeat center;
     background-size: cover;
 }
 
 .container_icoBackground{
-    background: url("img/icoBackground.png") no-repeat center;
+    background: url("img/icoBackground.jpg") no-repeat center;
     background-size: cover;
 }
 
 .container_background_technicalFeatures{
-    background: url("img/technicalFeatures.png") no-repeat center;
+    background: url("img/technicalFeatures.jpg") no-repeat center;
     background-size: cover;
 }
 
