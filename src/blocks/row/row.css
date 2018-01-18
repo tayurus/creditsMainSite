@@ -41,6 +41,10 @@
     align-items: start;
 }
 
+.row_alignItems_stretch{
+    align-items: stretch;
+}
+
 .row_direction_col{
     flex-direction: column;
 }
