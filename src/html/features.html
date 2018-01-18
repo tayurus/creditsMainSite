@@ -12,7 +12,7 @@
         <!-- HEADER -->
         <header class="header">
             <div class="header__wrapper">
-                <a href= "#" class="header__logo">
+                <a class="header__logo">
                     <img src="img/header__logo.png" alt="">
                     <h1 class="header__title">credits</h1>
                 </a>
@@ -57,58 +57,127 @@
             </div>
         </header>
 
-        <div class="container container_verticalPadding_50">
+        <div class="container_width_100 container_background_technicalFeatures container_paddingVertical_50">
             <div class="title">
-                <h2 class="title__text">Минимально жизнеспособный продукт</h2>
+                <h2 class="title__text">Заголовок</h2>
                 <h3 class="title__subtext">
-                    На данный момент разработана платформа с минимальными функциональными возможностями. Можно протестировать рабочую платформу,
-                    нажав на кнопку TEST MVP, расположенную ниже
+                    Текст текст текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст текст текст текст
+                    текст текст текст текст текст текст текст
                 </h3>
             </div>
 
-            <iframe style="margin:auto; display:block; width: 80%; height: 300px;" src="https://www.youtube.com/embed/LWg_Ya_0J68?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-            <div class="row row_spaceAround row_wrap row_alignItems_top">
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Децентрализованная сеть</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Каждый узел (нода) является одновременно и клиентом, и выполняет функции сервера
-                    </div>
-                </div>
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Узлы</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Сетевой узел, который хранит данные ID в системе — это публичный и приватный ключи
-                    </div>
-                </div>
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Переводы</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Возможность совершать денежные переводы между участниками сети
-                    </div>
-                </div>
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Консенсус</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Реализация алгоритма для выбора узла, ответственного за хранение данных в блокчейне
-                    </div>
-                </div>
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Сохранение транзакций</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Данные хранятся в блокчейне
-                    </div>
-                </div>
-                <div class="advantage">
-                    <div class="advantage__title advantage__title_size_16 advantage__title_textAlign_left">Кошелек</div>
-                    <div class="advantage__text advantage__text_color_gray advantage__text_textAlign_left">
-                        Функциональный кошелек внутри системы с минимальным набором функций на стороннем сервисе
-                    </div>
-                </div>
+            <div class="input-text input-text_margin_auto input-text_marginTop_60">
+                <div class="input-text__title">Введите адрес электронной почты</div>
+                <input type="text" name="text" placeholder="Email" class="input-text__input">
             </div>
 
-            <button class="button button_block button_margin_auto button_marginBottom_20">TEST MVP</button>
-            <button class="button button_block button_margin_auto button_marginTop_40 button_marginBottom_20 button_background_black button_borderRadius_30">участовать в ICO</button>
+            <button class="button button_block button_margin_auto button_marginTop_40">Отправить</button>
+        </div>
+
+        <div class="container container_paddingVertical_50">
+            <div class="compareTable compareTable_features">
+                <div class="title">
+                    <h2 class="title__text">Технические особенности</h2>
+                </div>
+                <div class="compareTable__wrapper">
+                    <table class="compareTable__table">
+                        <tr>
+                            <th></th>
+                            <th>Credits (CS)</th>
+                            <th>Bitcoin (BTC)</th>
+                            <th>Ethereum (ETH)</th>
+                        </tr>
+                        <tr>
+                            <td>Тип реестра</td>
+                            <td>Blockchain + DLT</td>
+                            <td>Classic blockchain</td>
+                            <td>Classic blockchain</td>
+                        </tr>
+                        <tr>
+                            <td>Децентрализованые ноды</td>
+                            <td>Да</td>
+                            <td>Да</td>
+                            <td>Да</td>
+                        </tr>
+                        <tr>
+                            <td>Размер блоков</td>
+                            <td>Динамичный</td>
+                            <td>1 Мб</td>
+                            <td>Динамичный</td>
+                        </tr>
+                        <tr>
+                            <td>Алгоритм консенсуса</td>
+                            <td>DPoS + BFT</td>
+                            <td>Proof of Work</td>
+                            <td>Proof of Work</td>
+                        </tr>
+                        <tr>
+                            <td >Гибкая конфигурация блокчейнs</td>
+                            <td>Да</td>
+                            <td>Нет</td>
+                            <td>Нет</td>
+                        </tr>
+                        <tr>
+                            <td>Валюта</td>
+                            <td>CREDITS (CS)</td>
+                            <td>Bitcoin (BTC)</td>
+                            <td>Ethereum (ETH)</td>
+                        </tr>
+                        <tr>
+                            <td>Тип блокчейна</td>
+                            <td>Публичный</td>
+                            <td>Публичный</td>
+                            <td>Публичный</td>
+                        </tr>
+                        <tr>
+                            <td>Тьюринг-код для разработки смарт-контрактов</td>
+                            <td>Java language</td>
+                            <td>Non-systematic</td>
+                            <td>Solidity. Not complete, restricted</td>
+                        </tr>
+                        <tr>
+                            <td>Процесс принятия решений</td>
+                            <td>BFT</td>
+                            <td>Non-systematic</td>
+                            <td>Solidity. Not complete, restricted</td>
+                        </tr>
+                        <tr>
+                            <td>Крипто алгоритм</td>
+                            <td>Symmetric-key algorithm <br/> + Asymmetric-key  algorithm</td>
+                            <td>Asymmetric-key<br/> algorithm</td>
+                            <td>Asymmetric-key<br/> algorithm</td>
+                        </tr>
+                        <tr>
+                            <td>Использование сторонних систем</td>
+                            <td>Да</td>
+                            <td>Нет</td>
+                            <td>Нет</td>
+                        </tr>
+                        <tr>
+                            <td>Смарт контракты</td>
+                            <td>Да</td>
+                            <td>Нет</td>
+                            <td>Да</td>
+                        </tr>
+                        <tr>
+                            <td>Возможность создания сторонних приложений</td>
+                            <td>Да</td>
+                            <td>Да, но очень сложно</td>
+                            <td>Да</td>
+                        </tr>
+                        <tr>
+                            <td>API</td>
+                            <td>Да</td>
+                            <td>Нет</td>
+                            <td>Да</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <button class="button button_block button_margin_auto button_borderRadius_30 button_background_black button_marginTop_40">участовать в ICO</button>
         </div>
 
         <footer class="footer">

@@ -41,3 +41,19 @@
         font-size: 14px !important;
     }
 }
+
+.compareTable__wrapper{
+    overflow: auto;
+}
+
+.compareTable_features .compareTable__table{
+    max-width: 830px;
+    min-width: 530px;
+
+}
+
+.compareTable_features .compareTable__table  td:not(:nth-of-type(1)){
+    font-family: "Montserrat - Semi Bold";
+    font-size: 16px;
+    font-weight: bold;
+}
