@@ -5,10 +5,11 @@
     margin: auto;
 }
 
-.title_textAlign_left{
+.title__text_textAlign_left{
     text-align: left;
     padding: 0px 10px;
 }
+
 
 .title_marginTop_70{
     margin-top: 70px;
@@ -30,6 +31,10 @@
     font-size: 20px;
 }
 
+.title__text_lineHeight_30{
+    line-height: 30px;
+}
+
 .title__text_color_white, .title__subtext_color_white{
     color: #fff;
 }
@@ -43,6 +48,10 @@
     font-weight: 700;
     text-transform: uppercase;
     padding: 0px 10px;
+}
+
+.title__subtext_lineHeight_30{
+    line-height: 30px !important;
 }
 
 .title__subtext_textAlign_left{

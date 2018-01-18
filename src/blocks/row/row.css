@@ -5,6 +5,10 @@
     align-items: center;
 }
 
+.row_maxWidth_760{
+    max-width: 760px;
+}
+
 .row_marginBottom_40{
     margin-bottom: 40px;
 }
