@@ -1,0 +1,29 @@
+.socialNetwork{
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin: 0px 5px;
+}
+
+.socialNetwork_facebook{
+    background: url("img/facebookN.png") no-repeat center;
+}
+.socialNetwork_googlePlus{
+    background: url("img/google-plusN.png") no-repeat center;
+}
+.socialNetwork_reddit{
+    background: url("img/redditN.png") no-repeat center;
+}
+.socialNetwork_in{
+    background: url("img/linkedinN.png") no-repeat center;
+}
+.socialNetwork_whatsUp{
+    background: url("img/whatsappN.png") no-repeat center;
+}
+.socialNetwork_vk{
+    background: url("img/vkN.png") no-repeat center;
+}
+.socialNetwork_tg{
+    background: url("img/telegramN.png") no-repeat center;
+}

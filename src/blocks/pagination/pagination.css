@@ -1,0 +1,20 @@
+.pagination {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination__item{
+    font-family: "Montserrat - Regular";
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+}
+
+.pagination__item:hover{
+    color: tomato;
+}
+
+.pagination_margin_auto{
+    margin: auto;
+}

@@ -1,0 +1,19 @@
+.new-body {
+    max-width: 743px;
+    padding: 5px;
+}
+
+.new-body__info {
+    font-family: "Montserrat - Regular";
+    margin-top:10px;
+}
+
+
+.new-body__img {
+    width: 100%;
+    min-height: 100px;
+    height: 70vw;
+    max-height: 400px;
+    background: url("img/new-body.jpg") no-repeat center;
+    background-size: contain;
+}

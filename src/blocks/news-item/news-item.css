@@ -2,6 +2,29 @@
     max-width: 250px;
     color: #000;
     text-decoration: none;
+    margin: 15px;
+}
+
+.news-item_width_280{
+    max-width: 280px !important;
+}
+
+.news-item__date_textAlign_right{
+    text-align: right;
+}
+
+.new-item__img{
+    width: 280px;
+    height: 155px;
+    background: url("img/newsTemplate.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.new-item__text{
+    color: #9c9c9c;
+    font-family: "Montserrat - Regular";
+    font-size: 12px;
 }
 
 @media (max-width:850px),(max-device-width:850px) {

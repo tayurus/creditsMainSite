@@ -1,0 +1,37 @@
+.categories {
+    max-width: 240px;
+    padding: 0px 20px;
+}
+
+.categories__title {
+    color: #9c9c9c;
+    font-family: "Montserrat - Regular";
+    margin-bottom: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.categories__list {
+
+}
+
+.categories__item {
+    display: flex;
+    flex-direction: column;
+    color: #9c9c9c;
+    font-family: "Montserrat - Semi Bold";
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.categories__item:hover{
+    color: lime;
+}
+
+@media (max-width:465px),(max-device-width:465px) {
+    .categories__list{
+        display: none;
+    }
+}

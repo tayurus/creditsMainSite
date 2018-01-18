@@ -5,8 +5,6 @@
     align-items: center;
 }
 
-
-
 .row_marginBottom_40{
     margin-bottom: 40px;
 }
@@ -37,6 +35,10 @@
     max-width: 380px;
 }
 
+.row_width_950{
+    max-width: 950px;
+}
+
 .row_alignItems_top{
     align-items: start;
 }
@@ -53,8 +55,16 @@
     justify-content: space-around;
 }
 
+
+
 @media (max-width:1245px),(max-device-width:1245px) {
     .row_spaceAround_1245{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:1050px),(max-device-width:1050px) {
+    .row_justifyContent_spaceAround_1050{
         justify-content: space-around;
     }
 }
@@ -75,5 +85,11 @@
 @media (max-width:670px),(max-device-width:670px) {
     .row_justifyContent_center_670{
         justify-content: center;
+    }
+}
+
+@media (max-width:465px),(max-device-width:465px) {
+    .row_wrap_465{
+        flex-wrap: wrap;
     }
 }
