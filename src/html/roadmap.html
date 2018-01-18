@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+        <title>Webpage</title>
+    </head>
+    <body>
+        <!-- HEADER -->
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="header__logo">
+                    <img src="img/header__logo.png" alt="">
+                    <h1 class="header__title">credits</h1>
+                </div>
+                <div class="header__menuIcon">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <nav class="header__menu">
+                    <a class="header__item" href="#">о нас</a>
+                    <a class="header__item" href="#">новости</a>
+                    <a class="header__item" href="#">ico</a>
+                    <div class="header__item-wrapper">
+                        <a class="header__item header__item-hasSubmenu" href="#">
+                            документы
+                            <div class="header__submenu">
+                        <a class="header__item" href="#">Презентация</a>
+                        <a class="header__item" href="#">Презентация короткая</a>
+                        <a class="header__item" href="#">Видео</a>
+                        </div>
+                        </a>
+                    </div>
+                    <a class="header__item" href="#">mvp</a>
+                    <a class="header__item" href="#">команда</a>
+                    <a class="header__item" href="#">f.a.q</a>
+                    <a class="header__item" href="#">профиль</a>
+                    <a class="header__item" href="#">
+                    <img src="img/header__enter.png" alt="Войти">
+                    </a>
+
+                    <div class="header__item-wrapper">
+                        <a class="header__item header__item-hasSubmenu" href="#">
+                            рус
+                            <div class="header__submenu">
+                                <a class="header__item" href="#">рус</a>
+                                <a class="header__item" href="#">eng</a>
+                            </div>
+                        </a>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+
+        <section class="container container_paddingVertical_50">
+
+            <div class="title">
+                <h2 class="title__text">Road map</h2>
+                <h3 class="title__subtext">
+                    Строго следим за выполнением сроков нашего плана
+                </h3>
+            </div>
+
+            <div class="roadmap">
+                <div class="roadmap__item">
+                    <div class="roadmap__date">Jan 2017</div>
+                    <div class="roadmap__status">Pre-Alpha</div>
+                    <div class="roadmap__point">
+
+                    </div>
+
+                    <div class="roadmap__list">
+                        <div class="roadmap__achievement"> > MVP</div>
+                        <div class="roadmap__achievement"> > White pap</div>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__date">Jan 2018</div>
+                    <div class="roadmap__status">Alpha</div>
+                    <div class="roadmap__point">
+
+                    </div>
+
+                    <div class="roadmap__list">
+                        <div class="roadmap__achievement"> > Публикация MVP</div>
+                        <div class="roadmap__achievement"> > Пресейл</div>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__date">Feb 2017</div>
+                    <div class="roadmap__status">ICO</div>
+                    <div class="roadmap__point">
+
+                    </div>
+
+                    <div class="roadmap__list">
+                        <div class="roadmap__achievement"> > Альфа версия</div>
+                        <div class="roadmap__achievement"></div>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__date">Apr 2018</div>
+                    <div class="roadmap__status">Beta</div>
+                    <div class="roadmap__point">
+
+                    </div>
+
+                    <div class="roadmap__list">
+                        <div class="roadmap__achievement"> > ICO</div>
+                        <div class="roadmap__achievement"> > Листинг на биржах</div>
+                    </div>
+                </div>
+                <div class="roadmap__item">
+                    <div class="roadmap__date">May 2018</div>
+                    <div class="roadmap__status">Pre-Alpha</div>
+                    <div class="roadmap__point">
+
+                    </div>
+
+                    <div class="roadmap__list">
+                        <div class="roadmap__achievement"> > MVP</div>
+                        <div class="roadmap__achievement"> > White pap</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="container container_width_100 container_background_gray container_paddingVertical_50">
+            <div class="container">
+                <table class='roadMap-table'>
+    				<thead>
+    					<tr>
+    						<th></th>
+    						<th>Jan 2017</th>
+    						<th>Jan 2018</th>
+    						<th>Apr 2018</th>
+    						<th>May 18</th>
+    						<th>June 18</th>
+    					</tr>
+    					<tr>
+    						<th></th>
+    						<th>Pre-Alpha</th>
+    						<th>Alpha</th>
+    						<th>Beta</th>
+    						<th>Pre-Release</th>
+    						<th>Release</th>
+    					</tr>
+    				</thead>
+    				<tbody>
+    					<tr>
+    						<td>Storage, Consensus mFA Consensus</td>
+    						<td>FA : Key Design Implementation</td>
+    						<td>mFA : Key Design Implementation, PoW + PoC</td>
+    						<td>mFA Optimization</td>
+    						<td>—</td>
+    						<td>Оптимизация</td>
+    					</tr>
+    					<tr>
+    						<td>Хранилище данных</td>
+    						<td>Decentralization Ledger, NoSQL Store implementation</td>
+    						<td>MessagePack History</td>
+    						<td>Блокчейн backup</td>
+    						<td>—</td>
+    						<td>—</td>
+    					</tr>
+    					<tr>
+    						<td>CVM (Credits virtual machine)</td>
+    						<td>Дизайн и Реализация</td>
+    						<td>Интеграция с экосистемой</td>
+    						<td>Оптимизация Интеграция в целостную систему</td>
+    						<td>Проверка ошибок</td>
+    						<td>—</td>
+    					</tr>
+    					<tr>
+    						<td>Сторонние системы</td>
+    						<td>—</td>
+    						<td>Дизайн и реализация</td>
+    						<td>Reasoner Optimization</td>
+    						<td>—</td>
+    						<td>Оптимизация</td>
+    					</tr>
+    					<tr>
+    						<td>Интерфейс</td>
+    						<td>Formal Specification and Key Design Elements</td>
+    						<td>Reasoner Integration with Blockchain</td>
+    						<td>—</td>
+    						<td>—</td>
+    						<td>—</td>
+    					</tr>
+    					<tr>
+    						<td>Пользовательский интерфейс</td>
+    						<td>Реализация</td>
+    						<td>Web UX design</td>
+    						<td>UX design Application Test</td>
+    						<td>—</td>
+    						<td>—</td>
+    					</tr>
+    					<tr>
+    						<td>Кошелек</td>
+    						<td>Спецификация кошелька</td>
+    						<td>—</td>
+    						<td>—</td>
+    						<td>Android, iOS, Desktop Wallets</td>
+    						<td>—</td>
+    					</tr>
+    					<tr>
+    						<td>RPC & REST API</td>
+    						<td>Спецификация</td>
+    						<td>Blockchain Explorer</td>
+    						<td>—</td>
+    						<td>Third-party explorer</td>
+    						<td>—</td>
+    					</tr>
+    				</tbody>
+    			</table>
+            </div>
+
+
+            <button class="button button_block button_margin_auto button_marginTop_40">download pdf</button>
+            <button class="button button_block button_margin_auto button_marginTop_40 button_background_black button_borderRadius_30">download pdf</button>
+        </section>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row footer__row">
+                    <div class="footer__col">
+                        <h4 class="footer__title">About Credits</h4>
+                        <div class="footer_line"></div>
+                        <div class="footer__text">
+                            CREDITS.COM PTE. LTD.<br/> Reg. No.: 201725929C<br/> Check
+                            <br/> 79 Ayer Rajah Crescent<br/> #05-08 Singapore 139955<br/>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Правила</h4>
+                        <div class="footer_line"></div>
+                        <div class="footer__text">
+                            <a href="#" class="footer__link">Условия пользования сайтом<a><br/> <a href="#" class="footer__link">Условия ICO</a><br/> <a href="#" class="footer__link">Политика <br/> конфиденциальности</a>
+                            <br/>
+                        </div>
+                    </div>
+
+                    <div class="footer__col">
+                        <h4 class="footer__title">Contacts</h4>
+                        <div class="footer__line"></div>
+                        <div class="footer__text">
+                            Advertising & PR: pr@credits.com<br/> Press & news: press@credits.com<br/> General issues: info@credits.com<br/> Tel: +65 8114 9362<br/>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row row_margin_auto row_wrap row_spaceAround_1245 row_paddingVertical_40">
+
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/telegram.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/facebook.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/in.png" alt="">
+                            </a>
+                        </div>
+
+
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/medium.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social">
+                                <img class="social__img social__img32" src="img/bitcoin.png" alt="">
+                            </a>
+                        </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                Copyright © 2017 CREDITS.COM All Rights Reserved.
+            </div>
+        </footer>
+
+    </body>
+</html>

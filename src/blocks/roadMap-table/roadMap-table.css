@@ -1,0 +1,11 @@
+.roadMap-table{
+    width: 798px;
+    margin: auto;
+    font-family: "Montserrat - Regular";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.roadMap-table td{
+    border-bottom: 1px solid #cecece;
+}
