@@ -8,6 +8,14 @@
 .news-item_width_280{
     max-width: 280px !important;
 }
+.news-item_width_180{
+    max-width: 180px !important;
+}
+
+.news-item_width_180 .new-item__img{
+    width: 180px;
+    height: 100px;
+}
 
 .news-item__date_textAlign_right{
     text-align: right;
