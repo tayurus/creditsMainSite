@@ -66,8 +66,12 @@
     color: #9a9a9a;
 }
 
+.header__item_img{
+    bac
+}
+
 .header__item:hover > img{
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .header__item-hasSubmenu{
@@ -82,6 +86,10 @@
     display: none;
     position: absolute;
     background-color: #fff;
+}
+
+.header__submenu_width_100{
+    width: 100px;
 }
 
 .header__submenu > .header__item{
