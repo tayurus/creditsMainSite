@@ -1,6 +1,14 @@
 .header {
     background-color: #262626;
     padding: 5px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+}
+
+.header__empty{
+    min-height: 80px;
 }
 
 .header__wrapper {
@@ -67,7 +75,7 @@
 }
 
 .header__item_img{
-    
+
 }
 
 .header__item:hover > img{

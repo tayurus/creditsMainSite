@@ -20,14 +20,14 @@ var distSrc = {
 
 gulp.task('buildForLeha', function() {
 
-     gulp.src(srcPath.jadePagesSrc)
-    .pipe(jade({
-    }))
-    .pipe(gulp.dest(distSrc.dist));
+    gulp.src(srcPath.jadePagesSrc)
+   .pipe(jade({
+       pretty : "\t"
+   }))
+   .pipe(gulp.dest(distSrc.dist));
 
-    gulp.src(srcPath.jadeBlocks).pipe(jade({
+   gulp.src(srcPath.htmlSrc).pipe(gulp.dest(distSrc.dist));
 
-    }));
 
     gulp.src(srcPath.htmlSrc).pipe(gulp.dest(distSrc.dist));
 
@@ -54,7 +54,7 @@ gulp.task('buildForLeha', function() {
 });
 
 gulp.task('build', function() {
-    
+
      gulp.src(srcPath.jadePagesSrc)
     .pipe(jade({
         pretty : "\t"
