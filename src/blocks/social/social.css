@@ -1,6 +1,6 @@
 
 @media (max-width:690px),(max-device-width:690px) {
-    .social{
+    .social:not(.footer__social){
         margin: 15px;
     }
 
@@ -18,8 +18,8 @@
 }
 
 .social > img{
-    width: 49px;
-    height: 49px;
+    /* width: 49px;
+    height: 49px; */
     display: block;
     margin: auto;
     margin-bottom: 10px;

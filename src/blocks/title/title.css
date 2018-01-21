@@ -27,6 +27,10 @@
     line-height: 30px;
 }
 
+.title__text_marginTop_10{
+    margin-top: 10px;
+}
+
 .title__text_hover_tomato:hover{
     color: tomato;
 }
@@ -50,8 +54,11 @@
 .title__subtext{
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
     padding: 0px 10px;
+}
+
+.title__subtext_fontSize_17{
+    font-size: 17px;
 }
 
 .title__subtext_lineHeight_30{
