@@ -5,11 +5,23 @@
     margin: auto;
 }
 
+.title_textAlign_left{
+    text-align: left;
+}
+
 .title__text_textAlign_left{
     text-align: left;
     padding: 0px 10px;
 }
 
+.title__ul{
+    margin-left: 55px;
+    padding: 0px;
+}
+
+.title__subtext_textIndent_30{
+    text-indent: 30px;
+}
 
 .title_marginTop_70{
     margin-top: 70px;
@@ -21,14 +33,9 @@
 
 .title__text{
     line-height: 24px;
-    font-size: 30px;
+    font-size: 28px;
     padding: 0px 10px;
-    font-variant: small-caps;
     line-height: 30px;
-}
-
-.title__text_marginTop_10{
-    margin-top: 10px;
 }
 
 .title__text_hover_tomato:hover{
@@ -51,14 +58,15 @@
     margin-bottom: 20px;
 }
 
+.title__text_bold{
+    font-weight: bold;
+}
+
 .title__subtext{
     font-size: 14px;
     font-weight: 700;
+    text-transform: uppercase;
     padding: 0px 10px;
-}
-
-.title__subtext_fontSize_17{
-    font-size: 17px;
 }
 
 .title__subtext_lineHeight_30{

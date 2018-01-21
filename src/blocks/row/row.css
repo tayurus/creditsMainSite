@@ -35,6 +35,10 @@
     flex-wrap: wrap;
 }
 
+.row_width_435{
+    max-width: 435px;
+}
+
 .row_width_380{
     max-width: 380px;
 }
@@ -50,6 +54,9 @@
 .row_alignItems_stretch{
     align-items: stretch;
 }
+.row_alignItems_end{
+    align-items: flex-end;
+}
 
 .row_direction_col{
     flex-direction: column;
@@ -59,7 +66,13 @@
     justify-content: space-around;
 }
 
+.row__wrapper{
 
+}
+
+.row__wrapper_marginTop_20{
+    margin-top: 20px;
+}
 
 @media (max-width:1245px),(max-device-width:1245px) {
     .row_spaceAround_1245{

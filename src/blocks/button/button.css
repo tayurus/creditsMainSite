@@ -28,6 +28,11 @@
     color: #fff;
 }
 
+.button_background_red{
+    background-color: #ff0000;
+    color: #fff;
+}
+
 .button_maxWidth_300{
     max-width: 300px;
 }
@@ -37,6 +42,10 @@
 }
 .button_margin_auto{
     margin: auto;
+}
+
+.button_fontSize_14{
+    font-size: 14px;
 }
 
 .button_width_235{

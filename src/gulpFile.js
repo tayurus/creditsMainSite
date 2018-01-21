@@ -2,8 +2,11 @@ var gulp = require('gulp');
 var rename = require('gulp-rename');
 var concat = require('gulp-concat');
 var urlAdjuster = require('gulp-css-url-adjuster');
+var jade = require('gulp-jade');
 
 var srcPath = {
+    jadePagesSrc: ["jade/**/*.jade"],
+    jadeBlocks: ["blocks/**/*.jade"],
     htmlSrc: "html/**/*.html",
     imgSrc: ["**/*.png", "**/*.jpg", "**/*.svg"],
     cssSrc: ["**/*.css", "!node_modules/**/*.css"],
@@ -16,6 +19,16 @@ var distSrc = {
 }
 
 gulp.task('buildForLeha', function() {
+
+     gulp.src(srcPath.jadePagesSrc)
+    .pipe(jade({
+    }))
+    .pipe(gulp.dest(distSrc.dist));
+
+    gulp.src(srcPath.jadeBlocks).pipe(jade({
+
+    }));
+
     gulp.src(srcPath.htmlSrc).pipe(gulp.dest(distSrc.dist));
 
     gulp.src(srcPath.cssSrc).pipe(rename({
@@ -41,6 +54,13 @@ gulp.task('buildForLeha', function() {
 });
 
 gulp.task('build', function() {
+    
+     gulp.src(srcPath.jadePagesSrc)
+    .pipe(jade({
+        pretty : "\t"
+    }))
+    .pipe(gulp.dest(distSrc.dist));
+
     gulp.src(srcPath.htmlSrc).pipe(gulp.dest(distSrc.dist));
 
     gulp.src(srcPath.cssSrc).pipe(rename({

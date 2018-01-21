@@ -27,7 +27,7 @@
     font-family: "Montserrat - Regular";
     font-size: 30px;
     font-weight: 700;
-
+    text-transform: uppercase;
 }
 
 .header__menuIcon{
@@ -57,7 +57,7 @@
     color: #ffffff;
     font-family: "Montserrat - Semi Bold";
     font-size: 14px;
-
+    text-transform: uppercase;
     text-decoration: none;
 }
 
@@ -67,7 +67,7 @@
 }
 
 .header__item_img{
-
+    
 }
 
 .header__item:hover > img{
@@ -109,7 +109,7 @@
     color: #ffffff;
     font-family: "Montserrat - Semi Bold";
     font-size: 14px;
-
+    text-transform: uppercase;
     border: none;
 }
 
