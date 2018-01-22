@@ -5,7 +5,7 @@ body
     .container
         .title
             h2.title__text Необходимая информация для участия в ICO
-            .row.container__label.container__label_attention
+            .row.container__label
                 .container__label_arrow
                 .container__label Ваша сумма превышает 10 ETH, пожалуйста, внесите дополнительные данные.
                 .container__label_arrow
@@ -76,17 +76,16 @@ body
                 .input-text__danger Check this field!
             
             
-            .row.row_width_435.row_margin_auto.row_spaceAround.row_wrap.row_alignItems_end
-                div.row__wrapper_marginTop_20
+            .row.row_width_435.row_margin_auto.row_spaceAround.row_alignItems_center
+                div
                     input(type="checkbox" id="accept" required)
-                    label(for="accept")
                 .profile-block__text.profile-block__text_margin_0 Согласен с 
                     a("href=#") правилами
                     |,
                     a("href=#") ICO Terms 
                     |и 
                     a("href=#") условиями
-                .input-text__danger Check this field!
+            .input-text__danger Check this field!
             
             button.button.button_block.button_margin_auto.button_marginTop_40.button_background_red.button_border_none(type="submit") Зарегистрироваться
             

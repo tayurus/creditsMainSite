@@ -39,8 +39,9 @@
     background-size: cover;
 }
 
-.container__label_attention{
+.validation-summary-errors{
     background-color: #ff9797;
+
 }
 
 .container__link_marginBottom_35{

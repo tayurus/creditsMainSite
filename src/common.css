@@ -7,7 +7,7 @@
 	font-family: "Montserrat-Medium Italic";
 }
 @font-face {
-	src:url("fonts/Montserrat-Regular.ttf");
+	src:url("fonts/Montserrat-SemiBold.ttf");
 	font-family: "Montserrat - Semi Bold";
 }
 
@@ -20,35 +20,9 @@ body{
     padding: 0px;
 }
 
-/*custom checkbox*/
-input[type="checkbox"] {
-    visibility: hidden;
-	width: 0px;
-}
 
-label {
-    color: #666666;
-    font-family: Roboto;
-    font-size: 12px;
-    font-weight: 500;
-    cursor: pointer;
-    user-select: none;
-    text-transform: uppercase;
-}
 
-input[type="checkbox"]+label:before {
-    width: 19px;
-    height: 19px;
-	border-radius: 50px;
-    content: "\00a0";
-    display: inline-block;
-    background: red;
-}
-
-input[type="checkbox"]:checked+label:before {
-    background: #0093d7;
-	line-height: 18px;
-    color: #fff;
-    content: "\2713";
-    text-align: center;
+a:hover{
+	color:#fe0000 !important;
+	cursor: pointer;
 }

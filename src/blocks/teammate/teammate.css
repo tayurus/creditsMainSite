@@ -13,6 +13,12 @@
 
 .teammate > img{
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.temamate .img-responsive img{
+    width: 32px;
+    display: block;
 }
 
 .teammate__name{

@@ -1,10 +1,11 @@
 .audit {
     display: flex;
-    max-width: 430px;
+    max-width: 475px;
 }
 
 .audit__left {
     margin-right: 15px;
+    min-width: 240px;
 }
 
 .audit__title {

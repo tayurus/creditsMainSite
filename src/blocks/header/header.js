@@ -1,11 +1,11 @@
 $(document).ready(function() {
     $(".header__menuIcon").click(function() {
-        $(".header__item, .header__lang").css({
-            "display": "block",
-            "textAlign": "center",
-            "margin-top": "15px"
-        });
-        $(".header__menu").slideToggle(200);
+
+        if ($(window).width() < 590){
+            $(".header__menu").slideToggle(200);
+            $(".header").toggleClass("header_scrollable");
+        }
+
         // $(".header__menuIcon div:nth-child(1)").hide();
         // $(".header__menuIcon div:nth-child(2)").css({
         //     "transform": "rotate(45deg)"
@@ -14,6 +14,17 @@ $(document).ready(function() {
         //     "transform": "rotate(-45deg) translateX(6px) translateY(-5px)"
         // });
     });
+
+    $(window).resize(function(){
+        if ($(window).width() > 590){
+            $(".header__menu").css({"display" : "flex"});
+            $(".header").removeClass("header_scrollable");
+        }
+        else {
+            $(".header").addClass("header_scrollable");
+        }
+
+    })
 
 
     $(".header__item-hasSubmenu").click(function(event) {

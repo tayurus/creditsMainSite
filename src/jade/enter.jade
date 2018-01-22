@@ -22,14 +22,16 @@ body
                 input(type=text, name=wallet, placeholder='Адрес почты', class='input-text__input')
                 .input-text__danger Check this field!
                 
-            .input-text.input-text_margin_auto.input-text_marginTop_30
-                .input-text__title Создайте пароль (минимум 8 знаков) 
+            .input-text.input-text_margin_auto
+                a.foggotPass foggot password?
+            
+            .input-text.input-text_margin_auto
                 input(type=text, required name=summ, placeholder='Пароль', class='input-text__input')
                 .input-text__danger Check this field!
                 
             button.button.button_block.button_margin_auto.button_marginTop_40(type="submit") Войти
             
-            .row.row_width_435.row_margin_auto.row_spaceAround.row_wrap.row_alignItems_end
+            .row.row_width_435.row_margin_auto.row_spaceAround.row_wrap.row_alignItems_center
                 div.row__wrapper_marginTop_20
                     input(type="checkbox" id="accept" required)
                     label(for="accept")

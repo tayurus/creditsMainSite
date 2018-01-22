@@ -35,6 +35,10 @@
     flex-wrap: wrap;
 }
 
+.row_justifyContent_start{
+    justify-content: flex-start;
+}
+
 .row_width_435{
     max-width: 435px;
 }
@@ -56,6 +60,9 @@
 }
 .row_alignItems_end{
     align-items: flex-end;
+}
+.row_alignItems_center{
+    align-items: center;
 }
 
 .row_direction_col{

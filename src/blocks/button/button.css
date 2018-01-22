@@ -3,12 +3,24 @@
     color: #000000;
     font-family: 'Montserrat-Regular';
     font-size: 16px;
-    padding: 10px 25px;
-    font-weight: 700;
+    padding: 10px 22px;
+    font-weight: 500;
     text-transform: uppercase;
     background-color: #fff;
     border: 2px solid #000;
     cursor: pointer;
+}
+
+.button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.button:active{
+    background-color: #fe0000 !important;
+    outline: none !important;
+    border: 2px solid transparent;
+    color: #fff;
 }
 
 .button_borderRadius_30{
@@ -26,6 +38,11 @@
 .button_background_black{
     background-color: #000;
     color: #fff;
+}
+
+.button_background_black:hover{
+    background-color: #fff;
+    color: #000 !important;
 }
 
 .button_background_red{

@@ -7,8 +7,16 @@
     z-index: 9999;
 }
 
+.header_scrollable{
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
 .header__empty{
-    min-height: 80px;
+    min-height: 90px;
 }
 
 .header__wrapper {
@@ -70,9 +78,6 @@
 }
 
 
-.header__item:hover{
-    color: #9a9a9a;
-}
 
 .header__item_img{
 
@@ -107,9 +112,6 @@
     padding: 5px 20px;
 }
 
-.header__submenu > .header__item:hover{
-    color:tomato;
-}
 
 .header__lang {
     outline: none;
@@ -117,7 +119,7 @@
     color: #ffffff;
     font-family: "Montserrat - Semi Bold";
     font-size: 14px;
-    text-transform: uppercase;
+
     border: none;
 }
 
@@ -148,6 +150,13 @@
 }
 
 @media (max-width:590px), (max-device-width:590px) {
+
+    .header__item, .header__lang{
+        display: block;
+        text-align: center;
+        margin-top: 15px
+    }
+
     .header__wrapper{
         flex-direction: column;
         padding: 10px 0px;
