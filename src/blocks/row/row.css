@@ -52,7 +52,7 @@
 }
 
 .row_alignItems_top{
-    align-items: start;
+    align-items: flex-start;
 }
 
 .row_alignItems_stretch{

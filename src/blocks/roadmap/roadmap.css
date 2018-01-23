@@ -2,8 +2,17 @@
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(to bottom, #fff 0%, #fff 45%, #575757 46%, #fff 49%, #fff 100% );
+    background-color: #f2f2f2;
     margin: auto;
+    position: relative;
+}
+
+.roadmap__line{
+    height: 2px;
+    background-color: #575757;
+    width: 100%;
+    position: absolute;
+    top: 51px;
 }
 
 .roadmap__item {
@@ -49,8 +58,11 @@
         width: 150px;
         flex-direction: column;
         justify-content: space-around;
-        background: none;
         align-items: flex-start;
+    }
+
+    .roadmap__line{
+        display: none;
     }
 
     .roadmap__item {
