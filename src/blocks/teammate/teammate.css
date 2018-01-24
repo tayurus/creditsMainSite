@@ -9,6 +9,7 @@
 
     text-align: center;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .teammate > img{
@@ -16,7 +17,7 @@
     width: 100%;
 }
 
-.temamate .img-responsive img{
+.teammate .img-responsive img{
     width: 32px;
     display: block;
 }
@@ -34,6 +35,12 @@
 
 .teammate__location{
     margin-bottom: 20px;
+}
+
+.teammate__linkein{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
 }
 
 @media (max-width:1200px),(max-device-width:1200px) {

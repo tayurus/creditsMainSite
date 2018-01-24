@@ -26,7 +26,7 @@
 
 .compareTable__table tr:not(.compareTable__title) td, .compareTable__table tr:not(.compareTable__title) th{
     border-bottom: 1px solid #ccc;
-    padding: 10px;
+    padding: 2px;
 }
 
 .compareTable__table th{
