@@ -4,14 +4,14 @@
 }
 
 .categories__title {
+    width: 100%;
+    text-align: center;
     color: #9c9c9c;
     font-family: "Montserrat - Regular";
     margin-bottom: 15px;
     font-size: 24px;
     cursor: pointer;
 }
-
-
 
 .categories__list {
 

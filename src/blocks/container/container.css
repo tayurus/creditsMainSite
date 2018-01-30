@@ -3,6 +3,7 @@
     margin: auto;
     padding-left: 10px;
     padding-bottom: 10px;
+    position: relative;
 }
 
 .container_margin_none{
