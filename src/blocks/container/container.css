@@ -6,6 +6,7 @@
     position: relative;
 }
 
+
 .container_margin_none{
     margin: 0px;
 }
@@ -61,12 +62,29 @@
     background-color: #f2f2f2;
 }
 
+.container_background_white{
+    background-color: #fff;
+}
+
 .container_width_100{
-    max-width: 100%;
+    width: 100%;
 }
 
 .container_maxWidth_480{
     max-width: 480px;
+}
+
+.container_paddingHorizontal_15{
+    padding: 15px;
+}
+
+
+.container_maxWidth_330{
+    max-width: 330px;
+}
+
+.container_fixed{
+    position: fixed;
 }
 
 

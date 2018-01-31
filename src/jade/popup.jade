@@ -1,0 +1,24 @@
+include ../blocks/head/head.jade
+form.popup
+     .container.container_fixed.container_paddingHorizontal_15.container_background_white.container_width_100
+        .title
+            h2.title__text Заголовок
+            
+            .input-text
+                .input-text__title Email:
+                input(type="email", name="text",  class="input-text__input")
+                .input-text__danger Check this field!
+                
+            .input-text
+                .input-text__title Phone number:
+                input(type="text", name="text",  class="input-text__input")
+                .input-text__danger Check this field!
+                
+                
+            .input-text
+                .input-text__title Additional info:
+                textarea( name="text",  class="input-text__input")
+                .input-text__danger Check this field!
+                
+            button.button.button_background_red.button_border_none.button_borderRadius_30.button_block.button_margin_auto SEND
+    

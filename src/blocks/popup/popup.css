@@ -1,0 +1,15 @@
+.popup{
+    width: 330px;
+    position: fixed;
+    left: 50%;
+    top: -50%;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+    height: 100%;
+}
+
+@media (max-width:350px),(max-device-width:350px) {
+    .popup{
+        width: 85%;
+    }
+}
