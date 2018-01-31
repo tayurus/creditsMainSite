@@ -47,6 +47,10 @@
     max-width: 380px;
 }
 
+.row_width_800{
+    max-width: 800px;
+}
+
 .row_width_950{
     max-width: 950px;
 }

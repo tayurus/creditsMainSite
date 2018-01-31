@@ -1,0 +1,11 @@
+mixin partner(data)
+    .partner
+        .partner__left
+            img.partner__img(src=data.img)
+            a.partner__link(href=data.link)= data.link.replace("https://","")
+            
+        .partner__right
+            h3.partner__title= data.title
+            for text in data.text
+                h4.partner__text= text
+                br

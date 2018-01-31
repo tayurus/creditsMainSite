@@ -18,17 +18,12 @@
 }
 
 .social > img{
-    /* width: 49px;
-    height: 49px; */
+
     display: block;
     margin: auto;
     margin-bottom: 10px;
 }
 
-/* .social__img32{
-    width: 32px !important;
-    height: 32px !important;
-} */
 
 .social__row{
     max-width: 563px;

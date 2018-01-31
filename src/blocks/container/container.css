@@ -6,6 +6,9 @@
     position: relative;
 }
 
+.container_height_165{
+    height: 165px;
+}
 
 .container_margin_none{
     margin: 0px;
@@ -90,6 +93,10 @@
 
 .container_maxWidth_740{
     max-width: 740px;
+}
+
+.container_maxWidth_780{
+    max-width: 780px;
 }
 
 .container_paddingVertical_20{

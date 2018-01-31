@@ -1,0 +1,50 @@
+.partner{
+    max-width: 800px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.partner__img{
+    margin-bottom: 32px;
+}
+
+.partner__left{
+    margin-right: 15px;
+    max-width: 202px;
+}
+
+.partner__link{
+    font-family: "Montserrat - Regular";
+    font-size: 18px;
+    line-height: 28px;
+    text-decoration: underline;
+    color: #000;
+    display: block;
+    text-align: center;
+}
+
+.partner__title{
+    font-family: "Montserrat - Semi Bold";
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.partner__text{
+    max-width: 510px;
+    font-family: "Montserrat - Regular";
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media (max-width:720px), (max-device-width:720px) {
+    .partner__link{
+        margin-bottom: 20px;
+    }
+
+    .partner__title{
+        text-align: center;
+    }
+}

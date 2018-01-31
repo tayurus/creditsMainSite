@@ -1,0 +1,17 @@
+include ../blocks/partner/partner.jade
+- var partners = []
+- partners.push({img: "img/ties.png", link: "https://ties.network", title: "First Decentralized Public smart Database", text: ["A public, distributed and decentralized database with one common thread: trust. Enforced by integrated fault tolerance, incentive schemes and smart contracts.", "Decentralized Public smart Database wants to have a decentralized database on CREDITS Platform, because in this case their clients will able to use internal cryptocurrency of CREDITS and they will have no reason to switch to Ethereum to create dapps, they will have a decentralized database on CREDITS platform."]})
+- partners.push({img: "img/comskill.png", link: "https://comskill.com", title: "Comskill", text: ["Comskill is a growing young, dynamic iGaming startup company located in Tallinn Estonia. Our main goal is to become number 1 affiliate operator for the iGaming industry within our core markets.", "Comskill Company is going to use contracts instead of a tracking pixel - every time someone clicks on the referral link, a smart contract is created with a unique id of that specific visitor. This\ information would be available to both the advertiser and the publisher, and it could be manipulated in any way. Since Supply-Side Platforms allow the buying and bidding of individual impressions in real-time, parametric smart contracts could really simplify the whole transaction, while allowing you to track and store every single transaction."]})
+- partners.push({img: "img/days.png", link: "https://days.exchange", title: "Days", text: ["DAYS are the first in the world insurance tokenized assets converting life extension demand into investment in anti-aging medicine guaranteed by top-expert blockchain panel.", "CREDITS provides Days.exchange with service: 1) High speed transactions in domestic system 2) Optimize the costs of transactions between users 3) Will provide a platform where  Days.exchange will use smart contracts with\ insurance tokenized assets converting life extension demand into investment in anti-aging medicine 4) Storing medical data and rapid access to information"]})
+
+include ../blocks/head/head.jade
+include ../blocks/header/header.jade
+
+.title
+    h2.title__text Партнеры
+
+.container.container_paddingVertical_50.container_maxWidth_780
+    for partner in partners
+        +partner(partner)
+
+include ../blocks/footer/footer.jade
