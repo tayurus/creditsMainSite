@@ -85,9 +85,38 @@
     margin-top: 20px;
 }
 
+.row_team{
+
+}
+
 @media (max-width:1245px),(max-device-width:1245px) {
     .row_spaceAround_1245{
         justify-content: space-around;
+    }
+}
+
+
+@media (max-width:1205px),(max-device-width:1205px) {
+    .row_team{
+        max-width: 966px;
+    }
+}
+
+@media (max-width:985px),(max-device-width:985px) {
+    .row_team{
+        max-width: 650px;
+    }
+}
+
+@media (max-width:985px),(max-device-width:985px) {
+    .row_team{
+        max-width: 650px;
+    }
+}
+
+@media (max-width:661px),(max-device-width:661px) {
+    .row_team{
+        justify-content: center;
     }
 }
 
