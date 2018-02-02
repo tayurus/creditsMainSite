@@ -109,7 +109,6 @@
 }
 
 
-
 .advantage__img_1{
     background: url("img/advantage1.png") no-repeat center;
     width: 73px;
@@ -201,4 +200,18 @@
         align-self:auto;
         margin-bottom: 10px;
     }
+}
+
+@media (max-width:710px),(max-device-width:710px) {
+    .advantage__chess-img{
+        display: block;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .advantage_chess{
+        margin: 10px auto;
+        width: 90%;
+    }
+
 }

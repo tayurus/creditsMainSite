@@ -35,6 +35,10 @@
     flex-wrap: wrap;
 }
 
+.row_reverse{
+    flex-direction: row-reverse;
+}
+
 .row_justifyContent_start{
     justify-content: flex-start;
 }
@@ -47,8 +51,8 @@
     max-width: 380px;
 }
 
-.row_width_800{
-    max-width: 800px;
+.row_width_710{
+    max-width: 710px;
 }
 
 .row_width_950{

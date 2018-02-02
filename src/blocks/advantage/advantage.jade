@@ -1,5 +1,7 @@
-mixin advantage(data)
-        .advantage.advantage_background_gray.advantage_width_390.advantage_width_100.advantage_marginTopRight_10.advantage__padding_20.advantage_alignSelf_start
-            .advantage__title.advantage__title_size_18.advantage__title_marginBottom_33= data.title
-            img.advantage__img_center.advantage__img_marginBottom_35(width=data.imgWidth, height=data.imgHeight, src=data.imgSrc)
-            .advantage__text.advantage__text_fontSize_12.advantage__text_margin_0= data.text
+mixin advantage(data, index)
+        .advantage.advantage_background_gray.advantage_width_100.advantage_marginTopRight_10.advantage__padding_20.advantage_alignSelf_start.advantage_chess
+                .row.row_wrap(class=index % 2 ? 'row_reverse' : '')
+                    img.advantage__chess-img(width=data.imgWidth, height=data.imgHeight, src=data.imgSrc)
+                    .container.container_maxWidth_470
+                        .advantage__title.advantage__title_marginBottom_33= data.title
+                        .advantage__text.advantage__text_fontSize_12.advantage__text_margin_0.advantage__text_textAlign_left= data.text

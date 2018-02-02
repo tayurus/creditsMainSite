@@ -32,6 +32,10 @@
     margin: 0px;
 }
 
+.parter__right{
+    max-width: 510px;
+}
+
 .partner__text{
     max-width: 510px;
     font-family: "Montserrat - Regular";

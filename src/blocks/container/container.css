@@ -77,6 +77,10 @@
     max-width: 480px;
 }
 
+.container_maxWidth_470{
+    max-width: 470px;
+}
+
 .container_paddingHorizontal_15{
     padding: 15px;
 }
