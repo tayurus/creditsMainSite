@@ -59,6 +59,12 @@
     max-width: 950px;
 }
 
+.row_maxWidth_800{
+    max-width: 800px;
+}
+
+
+
 .row_alignItems_top{
     align-items: flex-start;
 }
@@ -91,6 +97,13 @@
 
 .row_team{
 
+}
+
+.row__video{
+    margin:auto;
+    display:block;
+    width:47%;
+    height: 300px;
 }
 
 @media (max-width:1245px),(max-device-width:1245px) {
@@ -128,6 +141,11 @@
     .row_justifyContent_spaceAround_1050{
         justify-content: space-around;
     }
+
+    .row__video{
+        width: 80%;
+        margin: 15px 0px;
+    }
 }
 
 @media (max-width:945px),(max-device-width:945px) {
@@ -152,5 +170,12 @@
 @media (max-width:465px),(max-device-width:465px) {
     .row_wrap_465{
         flex-wrap: wrap;
+    }
+}
+
+@media (max-width:400px),(max-device-width:400px) {
+    .row_direction_col_when400{
+        flex-direction: column;
+        justify-content: center;
     }
 }

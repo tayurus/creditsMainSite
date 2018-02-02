@@ -5,3 +5,9 @@ mixin advantage(data, index)
                     .container.container_maxWidth_470
                         .advantage__title.advantage__title_marginBottom_33= data.title
                         .advantage__text.advantage__text_fontSize_12.advantage__text_margin_0.advantage__text_textAlign_left= data.text
+                        
+mixin advantage__small(data)
+    .advantage__small
+        img.advantage__small-img(src=data.imgSrc)
+        h3.advantage__small-title=data.title
+        a.advantage__small-link(href="#")
